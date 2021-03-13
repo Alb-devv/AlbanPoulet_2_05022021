@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: medium;
+}
+
+p
+{
+    font-size:medium
+}
+
+.hébergements
+{
+    background-color: #F2F2F2;
+}
+
+.populaires
+{
+    background-color: #F2F2F2;
+}
+
+article
+{
+background-color: white;   
+}
+
