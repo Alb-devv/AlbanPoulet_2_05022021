@@ -33,6 +33,10 @@ p
 
 article
 {
-background-color: white;   
+    background-color: white;   
 }
-
+img 
+{
+    width: 238px;
+    height: 114px;
+}
