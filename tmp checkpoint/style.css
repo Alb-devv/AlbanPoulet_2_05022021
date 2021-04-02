@@ -5,7 +5,7 @@
 }
 
 header
-{ 
+{   display: grid;
     background-color: white;
     margin: 50px;
     width: 1340px;
