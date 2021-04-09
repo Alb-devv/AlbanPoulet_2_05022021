@@ -5,18 +5,67 @@
 }
 
 header
-{ 
-    background-color: white;
-    margin: 50px;
+{
     width: 1340px;
 }
 
-header nav li
+.container-grid
 {
-	display: inline-flex;
-    justify-content: center;
-	list-style: none;
-	margin: 20px;
+  display: grid;
+  grid-template-columns: 100px auto 162px 162px 90px ;
+  grid-template-rows: 64px 64px;
+  background-color: white;
+  width:1340px;
+}
+
+
+.logo
+{   
+    background-color: white; 
+    width: 100px;
+    height: 40px;
+    margin-top:50px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} 
+
+.vide
+{
+    background-color: white; width: 806px
+} 
+
+.menu1
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: end;  
+}
+
+.menu2
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: end; 
+}
+
+.menu3
+{
+    color: royalblue;
+    font-weight: bold;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: end;
 }
 
 body
@@ -24,6 +73,9 @@ body
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1340px;
 }
 
 .titrep
@@ -32,30 +84,88 @@ body
     display: flex;
     flex-direction: column;
     width: 1340px;
-    margin-left: 50px;
+    margin-top: 0px;
+}
+
+form
+{
+    width:1340px;
 }
 
 form div
 {
     margin-top: 20px;
     margin-right: 976px;
-    margin-left: 50px;
     margin-bottom: 30px;
+    width:1340px;
+    display: inline-flex;
 }
 
-form ul
-{
-    margin-left: 50px;
-}
-
-form li
+form article
 {
     display: inline-flex;
+    border: 3px lightblue;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.filtres
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtresa
+{
+    width:196px;
+    height: 50px;
+    border: 3px solid lightgrey;
+    border-radius: 30px;
+    align-items: center;
+}
+
+form article svg
+{
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    background-color: lightgrey;
+    border-radius: 50%;  
+}
+
+form div svg
+{
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    background-color: lightgrey;
+    border-radius: 18px 0px 0px 18px;
+}
+
+#maRecherche
+{
+    width: 238px;
+    height: 50px;
+}
+
+button
+{
+    width: 134px;
+    height: 50px;
+    border-radius: 0px 18px 18px 0px;
+    background-color: royalblue;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .accroche
 {
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 h2
@@ -90,17 +200,15 @@ ul
 .hébergements
 {
     background-color: #F2F2F2;
-    padding: 41px;
-    width: 880px;
+    width: 800px;
     height: 628px;
     margin-top: 40px;
     margin-right: 40px;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-bottom: 66px;
-    padding-top: 46px;
-    padding-right: 28px;
-    padding-bottom: 44px;
-    padding-left: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 22px;
 }
 .container-art1
 {
@@ -124,9 +232,9 @@ ul
     width: 420px;
     height: 628px;
     margin-top: 40px;
-    margin-right: 50px;
-    margin-left: 40px;
+    margin-right: 0px;
     margin-bottom: 66px;
+    border-radius: 22px;
 }
 
 article
@@ -180,6 +288,7 @@ article
 .sectionAB
 {
     display: inline-flex;
+    width:1340px;
 }
 .activités
 {
@@ -235,4 +344,9 @@ article
 {
     width: 304px;
     height: 142px;
+}
+
+.dsearch
+{
+    width: 1340px;
 }
