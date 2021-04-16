@@ -13,7 +13,6 @@ header
 {
   display: grid;
   grid-template-columns: 100px auto 162px 162px 90px ;
-  grid-template-rows: 64px 64px;
   background-color: white;
   width:1340px;
 }
@@ -24,7 +23,7 @@ header
     background-color: white; 
     width: 100px;
     height: 40px;
-    margin-top:50px;
+    margin-top:52px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -43,7 +42,7 @@ header
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
-    align-self: end;  
+    margin-top: 50px; 
 }
 
 .menu2
@@ -53,7 +52,7 @@ header
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
-    align-self: end; 
+    margin-top: 50px;
 }
 
 .menu3
@@ -65,7 +64,7 @@ header
     grid-row-start: 1;
     grid-row-end: 2;
     justify-self: center;
-    align-self: end;
+    margin-top: 50px;
 }
 
 body
@@ -84,7 +83,7 @@ body
     display: flex;
     flex-direction: column;
     width: 1340px;
-    margin-top: 0px;
+    margin-top: 40px;
 }
 
 form
@@ -95,9 +94,7 @@ form
 form div
 {
     margin-top: 20px;
-    margin-right: 976px;
     margin-bottom: 30px;
-    width:1340px;
     display: inline-flex;
 }
 
@@ -113,7 +110,9 @@ form article
 .filtres
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 930px;
 }
 
 .filtresa
@@ -132,7 +131,7 @@ form article svg
     padding-right: 20px;
     padding-top: 18px;
     padding-bottom: 12px;
-    background-color: lightgrey;
+    background-color: #deebff;
     border-radius: 50%;  
 }
 
@@ -147,6 +146,11 @@ form div svg
     border-radius: 18px 0px 0px 18px;
 }
 
+path
+{
+    color: #0065fc;
+}
+
 #maRecherche
 {
     width: 238px;
@@ -158,20 +162,43 @@ button
     width: 134px;
     height: 50px;
     border-radius: 0px 18px 18px 0px;
-    background-color: royalblue;
+    background-color: #0065fc;
     font-weight: bold;
     font-size: medium;
 }
 
 .accroche
 {
-    margin-left: 0px;
+    display:inline-flex;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.accroche svg
+{
+    width: 5px;
+    height: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 9px;
+    padding-left: 9px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.accroche p
+{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
 }
 
 h2
 {
     font-weight: bold;
     margin-bottom: 24px;
+    margin-top: 46px;
 }
 
 h3
@@ -183,6 +210,11 @@ h3
 p
 {
     font-size:medium
+}
+
+.afficher
+{
+    font-weight: bold;
 }
 
 .footergras
@@ -205,7 +237,6 @@ ul
     margin-top: 40px;
     margin-right: 40px;
     margin-left: 0px;
-    margin-bottom: 66px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 22px;
@@ -219,13 +250,16 @@ ul
 
 .container-art2
 {
+    width: 344px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    padding-left: 36px;
+    padding-right: 40px;
 }
 .populaires
 {
-    display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     background-color: #F2F2F2;
@@ -250,16 +284,27 @@ article
     padding-right: 5px;
     padding-bottom: 0px;
     padding-left: 5px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .hébergart
 {
-    width: 246px;
-    height: 200px;
+    width: 248px;
+    height: 202px;
     font-size: 12px;
     margin-bottom: 30px;
     background-color: white; 
-    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+}
+
+.hébergart-description
+{
+    width: 210px;
+    height: 60px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 .hébergart2
@@ -269,7 +314,9 @@ article
     font-size: 12px;
     margin-bottom: 34px;
     background-color: white; 
-    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+    display: flex;
 }
 
 .héberimg2 
@@ -279,11 +326,16 @@ article
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
+    border-radius: 30px 0px 0px 30px;
 }
 .hébergart-description2
 {
-    display:flex;
-    justify-content: flex-start;
+    width: 170px;
+    height: 112px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-top: 20px;
 }
 .sectionAB
 {
@@ -294,8 +346,6 @@ article
 {
     width: 1340px;
     height: 490px;
-    margin-right: 40px;
-    margin-left: 50px;
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
@@ -306,8 +356,8 @@ article
     height: 448px;
     padding: 0px;
     display: flex;
-    justify-content: space-between;
     flex-flow: wrap;
+    flex-direction: column;
 }
 .container-act2
 {
@@ -315,7 +365,8 @@ article
     height: 448px;
     padding: 0px;
     display: flex;
-    flex-direction: row;
+    flex-flow: wrap;
+    flex-direction: column;
 }
 .h2divtest
 {
@@ -326,24 +377,38 @@ article
 {
     width: 304px;
     height: 448px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
 }
-.activart2
+.activart2a
 {
     width: 304px;
     height: 198px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+    margin-left: 43px;
+    margin-bottom: 50px;
+}
+
+.activart2b
+{
+    width: 304px;
+    height: 198px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+    margin-left: 43px;
 }
 .activmg1
 {
     width: 304px;
     height: 390px;
+    border-radius: 30px 30px 0px 0px;
 }
 .activmg2
 {
     width: 304px;
     height: 142px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 .dsearch
