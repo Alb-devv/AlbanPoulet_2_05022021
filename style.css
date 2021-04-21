@@ -4,6 +4,20 @@
     margin: 0px;
 }
 
+#bloc_page
+{
+    width: 1340px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
 header
 {
     width: 1340px;
