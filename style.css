@@ -708,11 +708,11 @@ footer
     }
     .survol1 
     {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    border-bottom: 3px inset #0065fcA3;
+       grid-column-start: 1;
+       grid-column-end: 1;
+       grid-row-start: 2;
+       grid-row-end: 2;
+       border-bottom: 3px inset #0065fcA3;
     }
 
     .menu1 
