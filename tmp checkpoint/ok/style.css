@@ -87,7 +87,7 @@ ul
     padding-left: 0;
 }
 
-.hébergements
+.hebergements
 {
     background-color: #F2F2F2;
     padding: 41px;
@@ -134,7 +134,7 @@ article
     background-color: white;  
 }
 
-.héberimg 
+.heberimg 
 {
     width: 238px;
     height: 114px;
@@ -144,7 +144,7 @@ article
     padding-left: 5px;
 }
 
-.hébergart
+.hebergart
 {
     width: 246px;
     height: 200px;
@@ -154,7 +154,7 @@ article
     border: 1px solid black;
 }
 
-.hébergart2
+.hebergart2
 {
     width: 344px;
     height: 146px;
@@ -164,7 +164,7 @@ article
     border: 1px solid black;
 }
 
-.héberimg2 
+.heberimg2 
 {
     width: 126px;
     height: 136px;
@@ -172,7 +172,7 @@ article
     padding-bottom: 6px;
     padding-left: 6px;
 }
-.hébergart-description2
+.hebergart-description2
 {
     display:flex;
     justify-content: flex-start;
@@ -181,7 +181,7 @@ article
 {
     display: inline-flex;
 }
-.activités
+.activites
 {
     width: 1340px;
     height: 490px;

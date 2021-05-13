@@ -346,7 +346,7 @@ ul
     padding-left: 0;
 }
 
-.hébergements
+.hebergements
 {
     background-color: #F2F2F2;
     width: 800px;
@@ -403,7 +403,7 @@ article
     background-color: white;  
 }
 
-.héberimg 
+.heberimg 
 {
     width: 238px;
     height: 114px;
@@ -414,7 +414,7 @@ article
     border-radius: 20px 20px 0px 0px;
 }
 
-.hébergart
+.hebergart
 {
     width: 248px;
     height: 202px;
@@ -425,7 +425,7 @@ article
     box-shadow: 0px 0px 5px 0px lightgrey;
 }
 
-.hébergart-description
+.hebergart-description
 {
     width: 210px;
     height: 60px;
@@ -434,7 +434,7 @@ article
     padding-top: 12px;
 }
 
-.hébergart2
+.hebergart2
 {
     width: 344px;
     height: 146px;
@@ -446,7 +446,7 @@ article
     display: flex;
 }
 
-.héberimg2 
+.heberimg2 
 {
     width: 126px;
     height: 136px;
@@ -455,7 +455,7 @@ article
     padding-left: 6px;
     border-radius: 30px 0px 0px 30px;
 }
-.hébergart-description2
+.hebergart-description2
 {
     width: 134px;
     height: 112px;
@@ -468,25 +468,25 @@ article
     align-content: space-between;
 }
 
-.hébergart-star
+.hebergart-star
 {
     width:210px;
     height:14px;
 }
 
-.hébergart-star2
+.hebergart-star2
 {
     height: 12px;
     font-size:12px;
 }
 
-.hébergart-star
+.hebergart-star
 {
     font-weight: 900;
     font-size: 13px;
 }
 
-.hébergart-star2
+.hebergart-star2
 {
     font-size: 12px;
 }
@@ -497,7 +497,7 @@ article
     width:1340px;
 }
 
-.activités
+.activites
 {
     width: 1340px;
     height: 490px;
@@ -527,7 +527,7 @@ article
     flex-direction: column;
 }
 
-.activités h3
+.activites h3
 {
     margin-left: 24px;
     margin-bottom: 22px;
@@ -961,7 +961,7 @@ footer
         /* height: 350px; */
     }
 
-    .hébergements 
+    .hebergements 
     {
         background-color: #FFF;
         width: 100%;
@@ -977,7 +977,7 @@ footer
         flex-direction: column;
     }
 
-   .sectionAB > .hébergements {
+   .sectionAB > .hebergements {
         flex:1;
         order: 2;
       }
@@ -998,7 +998,7 @@ footer
         flex-flow: row wrap;
     }
 
-    .hébergart {
+    .hebergart {
         width:100%;
         height: 200px;
         font-size: 12px;
@@ -1076,7 +1076,7 @@ footer
         /*! margin-bottom: 34px; */
     }
 
-    .hébergart2 {
+    .hebergart2 {
         width: 100%;
         height: 146px;
         font-size: 12px;
@@ -1093,7 +1093,7 @@ footer
         box-shadow: 0px 0px 5px 0px lightgrey;
     }
 
-    .activités {
+    .activites {
         /* width: 1340px; */
         height: 1306px;
         display: flex;
@@ -1104,7 +1104,7 @@ footer
         width: 100%;
     }
 
-  .sectionAB > .activités {
+  .sectionAB > .activites {
         order: 3;
       }
 
@@ -1168,7 +1168,7 @@ footer
         border-radius: 30px 30px 0px 0px;
     }
 
-    .activités h3 {
+    .activites h3 {
         /* margin-left: 24px; */
         /* margin-bottom: 22px; */
         /* margin-top: 22px; */
