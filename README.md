@@ -25,4 +25,4 @@ En effet, cette section communiquera avec notre base de données RGPD friendly a
 / Référencement : comme ce n'était pas le cadre du prototype, les balises ne sont pas encore optimisées selon règles du référencement tout comme les photos qui nécessiteront quelques tests afin de trouver le bon équilibre entre qualité et vitesse d'affichage, autre enjeu majeur pour éviter les taux de rebond en cas de pages qui seraient trop lentes à charger. La codebase refactorisé permettra aussi d'optimiser le référencement sur des critères techniques et de vitesse, notamment en éliminant du code "en surplus".
 
 
-Merci pour votre attention, je reste disponible pour toute suggestion ou amélioration pour la version définitive et vous remercie chaleureusement de m'avoir confié ce projet très intéressan!
+Merci pour votre attention, je reste disponible pour toute suggestion ou amélioration pour la version définitive et vous remercie chaleureusement de m'avoir confié ce projet très enrichissant!
