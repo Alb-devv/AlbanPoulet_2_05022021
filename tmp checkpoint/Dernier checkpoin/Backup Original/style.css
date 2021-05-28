@@ -114,7 +114,7 @@ header
 .survol1:hover
 {
     border-top:3px inset #0065fcA3;
-    font-style: #0065FC;
+    color: #0065FC;
 }
 
 .survol2
