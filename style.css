@@ -70,7 +70,7 @@ header
     color: #0065FC;
 }
 
-.menu1:focus
+.menu1:hover
 {
     color: #0065FC;
 }
@@ -90,7 +90,7 @@ header
 
 .menu2:hover
 {
-    /*! color: #0065FC; */
+    color: #0065FC;
 }
 
 .menu2:focus
@@ -352,9 +352,15 @@ form article .fas
     padding-left: 16px;
 }
 
-#maRecherche placeholder
+#maRecherche ::placeholder 
 {
-    width: 238px;
+    color: black;
+    opacity: 1;
+}
+
+input
+{
+color: black;
 }
 
 button
