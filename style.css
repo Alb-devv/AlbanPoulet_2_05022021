@@ -352,7 +352,7 @@ form article .fas
     padding-left: 16px;
 }
 
-#maRecherche ::placeholder 
+#maRecherche::placeholder 
 {
     color: black;
     opacity: 1;
