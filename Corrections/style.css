@@ -4,10 +4,20 @@
     margin: 0px;
 }
 
+body
+{
+    width: 1340px;
+height:100%;
+margin: 0;
+padding: 0;
+}
+
 #bloc_page
 {
     width: 1340px;
-    margin: auto;
+    height: 100%;
+    margin-bottom: -218px;
+
     /*! margin-left: 50px; */
     /*! margin-right: 50px; */
 }
@@ -414,7 +424,7 @@ h2
     margin-bottom: 24px;
 }
 
-#h2hautsa
+.h2hautsa
 {
     margin-top: 46px;
 }
@@ -728,7 +738,7 @@ article
 
 footer
 {
-    width: 1340px;
+    height: 218px;
     display: grid;
     grid-template-columns: 240px 215px 240px 215px 240px;
     margin-top: 0px;
