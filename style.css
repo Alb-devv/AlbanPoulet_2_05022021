@@ -196,7 +196,7 @@ form div
     display: inline-flex;
 }
 
-form article
+form a
 {
     display: inline-flex;
     flex-direction: row;
@@ -204,6 +204,8 @@ form article
     margin-left: 0px;
     font-weight: bold;
     font-size: medium;
+    text-decoration: none;
+    color:black;
 }
 
 .filtres
@@ -327,7 +329,7 @@ margin-left: 13px;
     margin-bottom: 0px;
 }
 
-form article .fas
+form a .fas
 {
     /*! height: 20px; */
     color: #0065fc;
